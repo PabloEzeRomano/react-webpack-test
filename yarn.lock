@@ -5135,6 +5135,14 @@ webpack@^2.7.0:
     webpack-sources "^1.0.1"
     yargs "^6.0.0"
 
+webpack_test@^0.1.10:
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/webpack_test/-/webpack_test-0.1.10.tgz#982cf187aeceb0e9410652ce7217a068555e006a"
+  dependencies:
+    prop-types "^15.5.10"
+    react "^15.4.2"
+    react-dom "^15.4.2"
+
 websocket-driver@>=0.5.1:
   version "0.6.5"
   resolved "https://registry.yarnpkg.com/websocket-driver/-/websocket-driver-0.6.5.tgz#5cb2556ceb85f4373c6d8238aa691c8454e13a36"

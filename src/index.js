@@ -1,7 +1,2 @@
-import Button from './components/Button';
-import Label from './components/Label';
-
-export {
-  Button,
-  Label,
-};
+export Button from './components/Button/Button';
+export Label from './components/Label/Label';

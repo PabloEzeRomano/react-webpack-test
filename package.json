@@ -1,6 +1,6 @@
 {
   "name": "react-last-chance",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "React Webpack Babel Starter Kit",
   "main": "public/main.js",
   "scripts": {

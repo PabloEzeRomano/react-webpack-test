@@ -2,7 +2,7 @@
   "name": "react-last-chance",
   "version": "0.0.5",
   "description": "React Webpack Babel Starter Kit",
-  "main": "''",
+  "main": "public/main.js",
   "scripts": {
     "build": "webpack --config webpack.production.config.js --progress --profile --colors",
     "start": "webpack-dev-server --progress --profile --colors",

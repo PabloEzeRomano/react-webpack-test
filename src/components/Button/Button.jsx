@@ -2,11 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Button.scss';
 
-export const Button = ({ buttonStyle, buttonText }) => (
-  <button className={buttonStyle}>
-    {buttonText}
-  </button>
-);
+export default class Button extends React.Component {
+  render() {
+    return(
+      <button className={this.props.buttonStyle}>
+        {this.props.buttonText}
+      </button>
+    );
+  }
+
+}
 
 Button.propTypes = {
   buttonStyle: PropTypes.string,

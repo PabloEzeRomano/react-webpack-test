@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Label.scss';
 
-const Label = ({ labelStyle, labelText }) => (
+export const Label = ({ labelStyle, labelText }) => (
   <span className={`${labelStyle}-label`}>
     {labelText}
   </span>
@@ -17,5 +17,3 @@ Label.defaultProps = {
   labelStyle: 'medium-label',
   labelText: 'press',
 };
-
-export default Label;

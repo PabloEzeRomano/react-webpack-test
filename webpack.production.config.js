@@ -1,7 +1,6 @@
 var webpack = require('webpack');
 var path = require('path');
 var loaders = require('./webpack.loaders');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
 var WebpackCleanupPlugin = require('webpack-cleanup-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
@@ -14,13 +13,14 @@ loaders.push({
   exclude: ['node_modules']
 });
 
+console.log('direcctionljanfljqnan', __dirname);
+
 module.exports = {
   entry: [
-    './src/index.jsx',
-    './styles/index.scss'
+    './src/index.js',
   ],
   output: {
-    publicPath: './',
+    // publicPath: './src',
     path: path.join(__dirname, 'public'),
     filename: 'main.js'
   },
@@ -50,12 +50,5 @@ module.exports = {
       filename: 'style.css',
       allChunks: true
     }),
-    new HtmlWebpackPlugin({
-      template: './src/template.html',
-      files: {
-        css: ['style.css'],
-        js: ['bundle.js'],
-      }
-    })
   ]
 };

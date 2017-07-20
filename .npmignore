@@ -1,3 +1,4 @@
 .babelrc
-lib
+src
 .idea
+node_modules

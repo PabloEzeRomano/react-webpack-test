@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './Label.scss';
 
 const Label = ({ labelStyle, labelText }) => (
-  <span className={labelStyle}>
+  <span className={`${labelStyle}-label`}>
     {labelText}
   </span>
 );
@@ -14,7 +14,7 @@ Label.propTypes = {
 };
 
 Label.defaultProps = {
-  labelStyle: 'medium',
+  labelStyle: 'medium-label',
   labelText: 'press',
 };
 
